@@ -35,11 +35,11 @@ namespace form_caesar
         {
             for (int j = 0; j < 1; j++)
             {
-                if (tb_ver.Text != null)
+                if (tb_ver.Text != "")
                 {
                     Char[] chararray = tb_ver.Text.ToCharArray();
                     int[] asciicode = new int[tb_ver.Text.Length];
-                    string ergebnis = null;
+                    string ergebnis = "";
 
                     for (int i = 0; i < tb_ver.Text.Length; i++)
                     {
@@ -66,11 +66,11 @@ namespace form_caesar
                     break;
                 }
 
-                if (tb_ent.Text != null)
+                if (tb_ent.Text != "")
                 {
                     Char[] chararray = tb_ent.Text.ToCharArray();
                     int[] asciicode = new int[tb_ent.Text.Length];
-                    string ergebnis = null;
+                    string ergebnis = "";
 
                     for (int i = 0; i < tb_ent.Text.Length; i++)
                     {
